@@ -127,5 +127,3 @@ A **multi-interface** design (`IManualOps`, `IUserOps`, `ILogOps`) helps reduce 
 - **Foreign Keys**: Strengthen referential integrity in `database.sql` (e.g., `lab_manuals.user_id` references `users.id`).  
 - **Better Error Handling**: Centralize error messages for consistent user feedback.  
 - **Logging and Auditing**: Expand logging details (timestamps, IP addresses) for more robust auditing.
-
-With these diagrams and this textual description, developers and stakeholders should gain a **clear mental model** of the system’s key processes, file organization, and the role-based workflows. This combination of UML diagrams and narrative effectively communicates both the **big picture** and **detailed** behaviors within the application.
